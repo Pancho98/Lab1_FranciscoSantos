@@ -597,6 +597,7 @@ public class Principal extends javax.swing.JFrame {
         ap.cargarArchivo();
         ap.setCliente(cl);
         ap.escribirArchivo();
+        JOptionPane.showMessageDialog(this, "El cliente se guardo con exito");
     }//GEN-LAST:event_jb_guardarPersonaMouseClicked
 
     private void tf_nombreEActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tf_nombreEActionPerformed
@@ -610,6 +611,7 @@ public class Principal extends javax.swing.JFrame {
         ape.cargarArchivo();
         ape.setEmpleado(em);
         ape.escribirArchivo();
+        JOptionPane.showMessageDialog(this, "El empleado se guardo con exito");
     }//GEN-LAST:event_jb_guardarEMouseClicked
 
     private void jb_GuardarMMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jb_GuardarMMouseClicked
@@ -619,6 +621,7 @@ public class Principal extends javax.swing.JFrame {
         apm.cargarArchivo();
         apm.setMascota(m);
         apm.escribirArchivo();
+        JOptionPane.showMessageDialog(this, "La Mascota se guardo con exito");
     }//GEN-LAST:event_jb_GuardarMMouseClicked
 
     private void jb_guardarPMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jb_guardarPMouseClicked
@@ -628,6 +631,7 @@ public class Principal extends javax.swing.JFrame {
         app.cargarArchivo();
         app.setProducto(pd);
         app.escribirArchivo();
+        JOptionPane.showMessageDialog(this, "El Producto se guardo con exito");
     }//GEN-LAST:event_jb_guardarPMouseClicked
 
     /**
