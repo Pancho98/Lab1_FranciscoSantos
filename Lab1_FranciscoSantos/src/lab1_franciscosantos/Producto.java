@@ -1,10 +1,14 @@
 
 package lab1_franciscosantos;
 
+import java.io.Serializable;
 
-public class Producto {
+
+public class Producto implements Serializable{
     private int precio;
     private String marca;
+    
+    private static final long SerialVersionUID=555L;
 
     public Producto() {
     }
